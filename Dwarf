@@ -1,0 +1,102 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Races of Umeika",
+				"abbreviation": "RU",
+				"full": "Thomas B",
+				"authors": [
+					"Thomas B"
+				],
+			}
+		],
+		"dateAdded": 02092020,
+		"dateLastModified": 02092020
+	},
+	"race": [
+		{
+			"name": "Hill Dwarf",
+			"source": "Races of Umeika",
+			"ability": [
+				{
+					"con": 1,
+					"dex": 2,
+					"wis": 1
+				},
+				{
+					"cha": -4,
+					"dex": 1,
+					"wis": 2
+				},
+	{
+			"choose": {
+			"from": [
+                "str",
+                "int",
+                "wis",
+                "cha"
+            ],
+            "count": 1,
+            "amount": 2
+        }
+    }
+			],
+			"size": "M",
+			"speed": 25,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Dwarven Resilience.",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against poison damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dwarven Toughness.",
+					"entries": [
+						"Your hitpoint maximum increases by 1, and it increases by 1 every time you gain a level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dwarven Combat Training.",
+					"entries": [
+						"You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Dwarven and Trader tongue."
+					],
+					"type": "entries"
+				}
+			],
+			"fluff": {
+				"entries": [
+					""
+				]
+			},
+			"traitTags": [
+				"Weapon Proficiency",
+				"Tool Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"dwarvish": true,
+					"common": true
+				}
+			]
+		}
+	]
+}
+                
